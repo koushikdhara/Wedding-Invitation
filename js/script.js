@@ -1,6 +1,6 @@
 (function ($) {
   "use strict";
-  $(".untoldcoding-falling").sakura("start", {
+  $(".coding-falling").sakura("start", {
     blowAnimations: ["blow-soft-left"],
     className: "sakura",
     fallSpeed: 2.5,
