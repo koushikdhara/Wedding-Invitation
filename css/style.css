@@ -6,7 +6,7 @@
 @font-face {
   font-family: myFont1;
 /*   src: url(./assets/Lipishree.ttf); */
-  src: url('./assets/Lipishree.ttf') format('truetype');
+  src: url('https://koushikdhara.github.io/Wedding-Invitation/assets/Lipishree.ttf') format('truetype');
 
 }
 
