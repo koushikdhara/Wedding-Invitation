@@ -5,7 +5,8 @@
 }
 @font-face {
   font-family: myFont1;
-  src: url(./assets/Lipishree.ttf);
+/*   src: url(./assets/Lipishree.ttf); */
+  src: url('./assets/Lipishree.ttf') format('truetype');
 
 }
 
