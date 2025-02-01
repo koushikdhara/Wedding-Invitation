@@ -1,6 +1,3 @@
-/**
- * @author Untoldcoding <vishaltewatiawork@gmail.com>
- */
 (function ($) {
   "use strict";
   $(".untoldcoding-falling").sakura("start", {
@@ -17,41 +14,16 @@ $(document).on("click", function () {
   document.getElementById("my_audio").play();
 });
 
-// function pauseAudio() {
-//   document.getElementById("my_audio").pause();
-//   console.log("Shaadi me pakka aana");
-//   event.stopPropagation();
-// }
-// setTimeout(function () {
-  //   document.getElementById("my_audio").play();
-  // }, 1000);
-// var audio = document.getElementById("my_audio");
-
-// // Play muted audio first (to bypass restrictions)
-// audio.play().then(() => {
-//     // Unmute and play after 5 seconds
-//     setTimeout(() => {
-//         audio.muted = false;
-//     }, 5000);
-// }).catch(error => {
-//     console.log("Autoplay blocked:", error);
-// });
-
 var countDownDate = new Date("Mar 03, 2025 00:00:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
   var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Output the result in an element with id="demo"
   document.getElementById("time").innerHTML =
     "<div class='container'><div class='days block'>" +
     days +
