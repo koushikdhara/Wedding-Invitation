@@ -1,11 +1,10 @@
 @font-face {
   font-family: myFont;
-  src: url('/assets/Suparna1.ttf');
+  src: url('https://koushikdhara.github.io/Wedding-Invitation/assets/Suparna1.ttf') format('truetype');
   
 }
 @font-face {
   font-family: myFont1;
-/*   src: url(./assets/Lipishree.ttf); */
   src: url('https://koushikdhara.github.io/Wedding-Invitation/assets/Lipishree.ttf') format('truetype');
 
 }
