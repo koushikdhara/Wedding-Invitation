@@ -1,11 +1,11 @@
 @font-face {
   font-family: myFont;
-  src: url(/assets/Suparna1.ttf);
+  src: url(./assets/Suparna1.ttf);
   
 }
 @font-face {
   font-family: myFont1;
-  src: url(/assets/Lipishree.ttf);
+  src: url(./assets/Lipishree.ttf);
 
 }
 
